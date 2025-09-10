@@ -1,0 +1,102 @@
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #0a192f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #0a192f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+}
+
+.nav-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.navbar ul li a:hover {
+  color: #007aad; /* Change to any color you like */
+  border-bottom: 2px solid #00aaff; /* Adds an underline effect */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Hamburger Menu Icon */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #0a192f;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
+.nav-links a.active {
+  color: #00bcd4; /* Highlight active section */
+  font-weight: bold;
+  border-bottom: 2px solid #00bcd4;
+}
