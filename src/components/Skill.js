@@ -5,6 +5,7 @@ import javaicon from "./image/java.png";
 import MernStackdeveloper from "./image/mernstack.png";
 import Webdeveloper from "./image/webdeveloper.jpeg";
 import Fullstackdeveloper from "./image/fullstack.png";
+import advjava from "./image/advanced-java-course.jpg";
 function Skill() {
   return (
     <section id="skills" className="skills">
@@ -13,6 +14,10 @@ function Skill() {
         <div className="skill-card">
           <img src={javaicon} alt="skillicon"></img>
           <h5>Java</h5>
+        </div>
+         <div className="skill-card">
+          <img src={advjava} alt="skillicon"></img>
+          <h5>Advanced Java</h5>
         </div>
         {/* second skill */}
 
