@@ -2,11 +2,29 @@ import React from "react";
 import "./project.css";
 import imgprojectone from "./image/project1.png";
 import secondproj from "./image/qrcode.png";
+import chatbot from "./image/Chatbot.png";
 function Project() {
   return (
     <section id="projects" className="projects">
       <h2>Projects</h2>
       <div className="project-container">
+
+        <div className="project-card">
+          <img src={chatbot} alt="Project 1" />
+          <h3>ChatBot</h3>
+          <p>
+           PersonalBot is an AI-powered chatbot designed to provide real-time, human-like conversations through a modern web interface.
+It uses FastAPI (Python) as the backend to handle message processing and communicate with OpenAI’s GPT model, while the React.js frontend offers a clean and responsive chat interface for users.
+          </p>
+          <a href="https://github.com/mauryarajkumar/Personalbot" className="btn">
+            View Project
+          </a>
+        </div>
+
+
+
+
+
         <div className="project-card">
           <img src={imgprojectone} alt="Project 1" />
           <h3>City-Weather</h3>
