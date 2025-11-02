@@ -3,11 +3,27 @@ import "./project.css";
 import imgprojectone from "./image/project1.png";
 import secondproj from "./image/qrcode.png";
 import chatbot from "./image/Chatbot.png";
+import ems from "./image/ems.png";
 function Project() {
   return (
     <section id="projects" className="projects">
       <h2>Projects</h2>
       <div className="project-container">
+       <div className="project-card">
+
+          <img src={ems} alt="Project 1" />
+          <h3>EMS</h3>
+          <p>
+          I’m currently developing And Further More Upgrade an Employee Management System (EMS) using Java, Swing, and MySQL
+           — a desktop-based application designed to simplify and automate employee record management within organizations.
+          This project aims to replace the traditional, manual approach to maintaining employee information with a secure, 
+          efficient, and user-friendly system that enables administrators to handle employee data easily and accurately..
+          </p>
+          <a href="https://github.com/mauryarajkumar/Employee_Mangement_System" className="btn">
+            View Project
+          </a>
+        </div>
+
 
         <div className="project-card">
           <img src={chatbot} alt="Project 1" />
@@ -20,6 +36,8 @@ It uses FastAPI (Python) as the backend to handle message processing and communi
             View Project
           </a>
         </div>
+       
+
 
 
 

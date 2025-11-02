@@ -1,4 +1,76 @@
-.resume {
+
+
+.resume-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
   text-align: center;
-  padding: 100px;
+  font-size: 2.5rem;
+  /* margin-bottom: 1px; */
+  padding: 15px;
+  color: #222;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.resume-block {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-block h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #eaf3ff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  color: #0056b3;
+  font-weight: 500;
+}
+
+.download-btn {
+  display: block;
+  width: max-content;
+  margin: 30px auto 0;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #0056b3;
 }
