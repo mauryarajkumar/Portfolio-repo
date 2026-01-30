@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4df6faee.css",
-    "main.js": "/static/js/main.f760f14c.js",
+    "main.css": "/static/css/main.c948437a.css",
+    "main.js": "/static/js/main.5057033d.js",
     "static/js/453.64512fd7.chunk.js": "/static/js/453.64512fd7.chunk.js",
     "static/media/profile.png": "/static/media/profile.d47a93111555d342d4cf.png",
+    "static/media/ems.png": "/static/media/ems.6a88170daa93c34c72ca.png",
+    "static/media/qrcode.png": "/static/media/qrcode.3e4f73c31391bc765cfb.png",
+    "static/media/advanced-java-course.jpg": "/static/media/advanced-java-course.c7c7775fc64eec389d6d.jpg",
+    "static/media/Chatbot.png": "/static/media/Chatbot.17615ec8f7178a6ef9bd.png",
     "static/media/project1.png": "/static/media/project1.d8f3bfb4741d25180ce1.png",
     "index.html": "/index.html",
-    "main.4df6faee.css.map": "/static/css/main.4df6faee.css.map",
-    "main.f760f14c.js.map": "/static/js/main.f760f14c.js.map",
+    "main.c948437a.css.map": "/static/css/main.c948437a.css.map",
+    "main.5057033d.js.map": "/static/js/main.5057033d.js.map",
     "453.64512fd7.chunk.js.map": "/static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4df6faee.css",
-    "static/js/main.f760f14c.js"
+    "static/css/main.c948437a.css",
+    "static/js/main.5057033d.js"
   ]
 }

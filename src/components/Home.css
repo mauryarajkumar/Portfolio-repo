@@ -5,7 +5,7 @@
   height: 100vh;
   padding: 0 10%;
   background-color: #d9e2e9;
-  color: white;
+  color: rgb(11, 18, 205);
 }
 @media screen and (max-width: 768px) {
   .home {
@@ -15,7 +15,7 @@
     height: 100vh;
     padding: 0 10%;
     background-color: #d9e2e9;
-    color: white;
+    color: rgb(11, 18, 205);
   }
 }
 
